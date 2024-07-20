@@ -1,0 +1,23 @@
+{
+  "name": "api-de-pagamento-mercado-pago",
+  "author": "Gabriel Kramer - https://gabrielkramer.netlify.app/",
+  "version": "1.0.0",
+  "description": "Aproveie essa API construida por mim que gera pagamentos PIX - atualizada 20/07/2024",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mercadopago": "^2.0.11",
+    "prisma": "^5.17.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

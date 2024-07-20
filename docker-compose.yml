@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: bitnami/postgresql:latest
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=kramer
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=dbname
+    volumes:
+      - pdv-pg-data:/bitnami/postgresql
+volumes:
+  pdv-pg-data:
